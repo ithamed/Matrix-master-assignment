@@ -1,0 +1,104 @@
+body{
+  width: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.first-list{
+  width: 30%;
+  font-size: 1.3em;
+  float: right;
+}
+header ul li{
+  float: right;
+}
+header ul li a{
+  display: block;
+  padding: 8px;
+}
+aside{
+  margin-left: 50px;
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+section{
+  display: inline-block;
+  width: 70%;
+}
+h3{
+  background-color: #8f8f8f;
+}
+aside h3,p,a{
+  padding: 0 10px 0 10px;
+}
+aside button{
+  margin-left: 10px;
+}
+aside div{
+  background-color: #d1d1d1;
+  margin: 10px;
+}
+aside img{
+  width: 45%;
+}
+.main-img{
+  width: 100%;
+}
+.first-img{
+  display: inline-block;
+  margin: 0 0 0 50px;
+  width: 20%;
+  padding: 0;
+}
+.newsp{
+  text-align: right;
+  font-size: 0.8em;
+}
+h1{
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #070042;
+}
+section a{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+section div p{
+  margin-top: 0;
+  max-width: 550px;
+}
+section div{
+  display: inline-block;
+}
+#signUp{
+  float: right;
+  vertical-align: top;
+}
+#center{
+  text-align: center;
+}
+#bgpink{
+  background-color: pink;
+  border: 1px orangered solid;
+  padding: 10px 180px 10px 180px;
+}
+h2{
+  background-color: silver;
+  margin: 30px 0 30px 0;
+}
+
+footer ul li{
+  display: inline-block;
+}
+footer{
+  text-align: center;
+  margin-top: 100px;
+}
+footer a{
+  display: block;
+  margin-bottom: 20px;
+}

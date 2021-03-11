@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Honar-e-parsi</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./images/360_misc-1638805-0.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">artists</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            Honar-e-parsi is a art website for artist generate by artist.
+          </span>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="card col-4">
+        <img src="./images/1.jpg" class="card-img-top" alt="Art image">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card col-4">
+        <img src="./images/2.jpg" class="card-img-top" alt="Art image">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card col-4">
+        <img src="./images/3.jpg" class="card-img-top" alt="Art image">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <table class="table col bg-light container">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Nmae</th>
+        <th scope="col">Position</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Hamed</td>
+        <td>Danesh</td>
+        <td>CEO</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Shima</td>
+        <td>Asadi</td>
+        <td>Director</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Dara</td>
+        <td>Danesh</td>
+        <td>Financial Manager</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <form class="container" action="process.php" method="POST">
+    <div>
+      <label>First Name</label>
+      <input class="form-control form-control-lg" type="text" name="firstName" placeholder="enter first name">
+    </div>
+    <br>
+    <div>
+      <label>Last Name</label>
+      <input class="form-control form-control-lg" type="text" name="lastName"
+      placeholder="enter last name">
+    </div>
+    <br>
+    <div>
+      <label>Gender</label>
+      <select class="form-select" aria-label="Default select example">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <br>
+    <div class="form-check">
+      <h4>period of life</h4>
+      <input class="form-check-input" type="radio" id="adult" name="gender" value="adult">
+      <label class="form-check-label" for="adult">adult</label><br>
+      <input class="form-check-input" type="radio" id="teenager" name="gender" value="teenager">
+      <label class="form-check-label" for="teenager">teenager</label><br>
+      <input class="form-check-input" type="radio" id="baby" name="gender" value="baby">
+      <label class="form-check-label" for="baby">baby</label>
+    </div>
+    <br>
+    <div class="form-check">
+      <h4>hoby</h4>
+      <input class="form-check-input" type="checkbox" id="football" name="football" value="football">
+      <label class="form-check-label" for="football"> I love football</label><br>
+      <input class="form-check-input" type="checkbox" id="basketball" name="basketball" value="basketball">
+      <label class="form-check-label" for="basketball"> I love basketball</label><br>
+      <input class="form-check-input" type="checkbox" id="volleyball" name="volleyball" value="volleyball">
+      <label class="form-check-label" for="volleyball"> I love volleyball</label><br><br>
+    </div>
+    <br>
+    <input class="btn btn-success" type="submit" name="submit" value="submit">
+  </form>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</body>
+</html>

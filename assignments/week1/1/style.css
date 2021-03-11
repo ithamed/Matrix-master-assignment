@@ -1,0 +1,34 @@
+body{
+  width: 100%;
+}
+section{
+  display: flex;
+  box-sizing: border-box;
+}
+form input[type=number]{
+  width: 10%;
+}
+section div{
+  flex: 2;
+  margin-top: 15px;
+}
+section div:last-child{
+   flex: 1;
+}
+section div h6{
+  padding: 0;
+  margin: 0;
+  color: red;
+}
+.container div p{
+  font-size: 0.5em;
+  margin: 0;
+  padding: 0;
+}
+.midden-section{
+  display: inline-block;
+}
+.midden-section p{
+  margin: 0;
+  padding: 0;
+}

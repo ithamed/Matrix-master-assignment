@@ -1,0 +1,119 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1000px;
+}
+.holePadding{
+  padding: 0 200px;
+}
+header{
+  background-color: #3B5998;
+  color: white;
+}
+div{
+  display: inline-block;
+  padding: 10px;
+}
+.firstDiv{
+  width: 300px;
+  
+}
+.secondDiv{
+  width: 250px;
+}
+header>div>div{
+  width: 85px;
+  margin: 2px;
+  padding: 2px;
+}
+header>div>div>input{
+  width: 98%;
+}
+header>div>button{
+  margin-left: 2px;
+  background-color: #5E77AA;
+  color: white;
+}
+section{
+  background: linear-gradient(360deg, rgba(210,216,232,1) 0%, rgba(255,255,255,1) 100%);
+}
+section div{
+  vertical-align: top;
+}
+section>div>img{
+  width: 90%;
+  margin: 5% 0;
+}
+section input{
+  width: 190px;
+  height: 30px;
+  margin: 2px;
+}
+section label{
+ display: inline-block;
+ width: 70px;
+ height: 30px;
+ font-size: .77rem;
+ text-align: right;
+}
+p,h3{
+  margin: 0;
+}
+section>div>div{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section>div>div>div{
+  width: 190px;
+  height: 15px;
+}
+section select{
+  max-width: 90px;
+}
+#birthday select{
+  max-width: 50px;
+}
+a,p{
+  font-size: .8rem;
+  text-decoration: none;
+}
+a{
+  color: blue;
+}
+section h3,section label{
+  color: #526F8C;
+}
+#signUp{
+  margin-left: 70px;
+  display: block;
+}
+section button{
+  color: white;
+  background-color: #68A64C;
+  padding: 5px 20px;
+}
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+li{
+  float: left;
+  margin: 3px;
+}
+footer div{
+  display: inline-block;
+  vertical-align: top;
+}
+#copyRight{
+  width: 180px;
+  margin-right: 10px;
+}
+#lastPart{
+  width: 360px;
+}
+footer a{
+  font-size: .75rem;
+}
